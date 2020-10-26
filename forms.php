@@ -20,12 +20,11 @@
 </form>
 
 <?php 
-    //result -- selecting the country and capital
+    //result -- selecting the capital
     if(isset($_POST['Submit'])){
 
         $getcapital = $_POST['countries']; 
-        $getcountry = $_POST['selected'];
-        echo 'The capital of ' . $getcountry . ' is ' . $getcapital;
+        echo 'The capital is ' . $getcapital;
     }
 ?>
 </div> 
