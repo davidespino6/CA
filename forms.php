@@ -1,4 +1,5 @@
 <?php include 'include/header.php' ?>
+
 <div class="myForm"> 
 
 <form action="forms.php" method="POST">
@@ -10,9 +11,10 @@
         require_once 'requires/db.php';
         
         // loop for dropdown list
-        foreach($capital as $country => $country_value){
-            echo "<option value=$country_value '>$country</option>";
-        }
+        foreach($capital as $country => $city){
+			echo "<option value=$city '>$country</option>";
+		}
+
         ?>  
     </select>
 
@@ -20,12 +22,13 @@
 </form>
 
 <?php 
-    //result -- selecting the capital
+    //result -- selecting the country and capital
     if(isset($_POST['Submit'])){
 
-        $getcapital = $_POST['countries']; 
-        echo 'The capital is ' . $getcapital;
-    }
+		$getcapital = $_POST['countries']; 
+		echo 'The capital of the slected country is ' . $getcapital;	
+	}
+	
 ?>
 </div> 
     

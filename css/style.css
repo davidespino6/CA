@@ -8,11 +8,6 @@ body p {
 	padding: 15px !important;	
 }
 
-/*Changes color of active link*/
-#topheader .navbar-nav li.active > a {
-	color: #f1c40f;
-}
-
 /*** Image styling ***/
 img.img-fluid {
 	width: 80%;
