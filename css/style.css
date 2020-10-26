@@ -3,6 +3,7 @@ body p {
 	color: #2f3640;
 	letter-spacing: 1px;
 }
+
 .navbar {
 	padding: 15px !important;	
 }
@@ -93,6 +94,7 @@ h1.capitals {
 	border-bottom: #1088b8;
 }
 
+/* form styling */
 .myForm{
 	padding-left: 35%;
 	padding-top: 5%;
