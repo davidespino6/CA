@@ -3,13 +3,12 @@
 <head>
 	<title>Home</title>
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	
+
 </head>
 <body>
 
@@ -18,7 +17,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
 		<!-- Navbar brand -->
-  		<a class="navbar-brand" style="color: #f1c40f;" href="index.php">David Espino</a>
+		<a class="navbar-brand" style="color: #f1c40f;" href="index.php">David Espino</a>
 
   		<!-- Collapse button -->
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
